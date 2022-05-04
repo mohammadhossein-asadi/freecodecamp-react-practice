@@ -4,6 +4,8 @@ import ComplexJSXElement from "./components/ComplexJSXElement";
 import RenderHtmlElement from "./components/RenderHtmlElement";
 import HTmlClassInJSX from "./components/HTmlClassInJSX";
 import ClosingTag from "./components/ClosingTag";
+import FunctionalComponent from "./components/FunctionalComponent";
+import ReactComponent from "./components/ReactComponent";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <RenderHtmlElement />
       <HTmlClassInJSX />
       <ClosingTag />
+      <FunctionalComponent />
+      <ReactComponent />
     </>
   );
 }
